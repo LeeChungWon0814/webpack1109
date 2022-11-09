@@ -1,0 +1,17 @@
+// 스크립트를 설정해서 데이터화 시킨다
+$color--black:#000;
+$color--white:#fff;
+
+body{
+  h1{text-align: center;}
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+  p{
+    background-color: $color--black;
+    color: $color--white;
+    text-align: center;
+  }
+
+}
